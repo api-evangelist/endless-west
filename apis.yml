@@ -1,8 +1,13 @@
 aid: endless-west
 name: Endless West
-description: 'Endless West is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Food & Agritech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Endless West is a Detroit-based molecular spirits manufacturer that applies food and
+  molecular science to create alcoholic beverages without traditional distilling or aging. The company
+  operates a TTB-approved production facility offering bulk base spirits and ready-to-bottle liquids,
+  turnkey and private-label packaged brands, pre-made concentrates, and contract co-packing and bottling
+  services for other brands and entrepreneurs. Its proprietary Glyph Molecular Spirit showcases a
+  sustainability approach that reduces water usage and CO2 footprint versus conventional distillation.
+  Endless West is a consumer-products and manufacturing company with no public developer API surface;
+  this profile was surfaced as a Partech portfolio company and enriched into the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/endless-west/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Food & Agritech
+- Spirits
+- Beverage
+- Manufacturing
+- Molecular Science
+- Co-Packing
+- Private Label
+- Sustainability
+image: https://endlesswest.com/wp-content/uploads/2023/06/EW_Secondary_Lockup_Gold-1.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://endlesswest.com/
+- type: About
+  url: https://endlesswest.com/about/
+- type: Support
+  url: https://endlesswest.com/contact-us/
+- type: TermsOfService
+  url: https://endlesswest.com/privacy-policy-terms-of-use/
+- type: PrivacyPolicy
+  url: https://endlesswest.com/privacy-policy-terms-of-use/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
